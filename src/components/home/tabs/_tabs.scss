@@ -1,0 +1,45 @@
+@use "../../../style/global" as *;
+
+.tabs-wrapper {
+  .tabs-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    background-color: white;
+    position: sticky;
+    top: 0;
+
+    .tab-btn {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+
+      &:hover {
+        border-bottom: 1px solid black;
+      }
+    }
+
+    .tab-active {
+      background-color: #f2f2f2;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .context-container {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: $m-breakpoint) {
+  .tabs-wrapper {
+    .tabs-container {
+      padding: 1rem 0 0 0;
+      top: 86px;
+    }
+
+    .context-container {
+      padding: 1rem 0 0 0;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+@use "../../style/global" as *;
+
+footer {
+  padding: 0 2rem 3rem 2rem;
+  color: white;
+
+  .footer-wrapper {
+    max-width: 1300px;
+    min-height: 100px;
+    background-color: var(--primary-background-color);
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 0 auto;
+
+    .footer-divider {
+      opacity: 0.2;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .footer-upper-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2rem;
+
+      .partner-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .partner-contact-info {
+          width: fit-content;
+          height: fit-content;
+
+          .partner-logotype {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: white;
+            text-decoration: none;
+            object-fit: cover;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+      .footer-context {
+        text-align: center;
+      }
+    }
+
+    .footer-lower-container {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #ffffff45;
+      padding-top: 1rem;
+
+      a {
+        text-decoration: none;
+        color: white;
+        opacity: 0.5;
+
+        &:hover {
+          text-decoration: underline;
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  .footer-divider {
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+
+  .footer-org-container {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}
+
+@media (max-width: $m-breakpoint) {
+  footer {
+    .footer-wrapper {
+      .footer-upper-container {
+        .partner-wrapper {
+          gap: 1rem;
+        }
+      }
+
+      .footer-lower-container {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    .footer-wrapper {
+      .footer-upper-container {
+        .partner-wrapper {
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+}
