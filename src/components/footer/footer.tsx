@@ -69,7 +69,7 @@ export const Footer = () => {
           <div className="footer-lower-container">
             <p>&copy; {currentYear} All rights reserved</p>
 
-            <a href="">About youth exchange</a>
+            <a href="#/about">About youth exchange</a>
           </div>
         </div>
 
