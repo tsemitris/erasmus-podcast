@@ -1,0 +1,72 @@
+import "./_aboutYE.scss";
+
+document.title = "test";
+
+export const AboutYE = () => {
+  return (
+    <>
+      <div className="about-main-container main-container">
+        <div className="about-hero">
+          <div className="about-ye-container">
+            <h3>About the YE</h3>
+            <p>
+              From the 6th to the 14th of May 2025, a group of young people from
+              across Europe came together in Trofaiach, Austria, to participate
+              in a Youth Exchange as part of the Erasmus+ programme.
+            </p>
+          </div>
+        </div>
+
+        <p className="about-center-text">
+          The focus of this project was active citizenship and through open
+          discussions, shared experiences, and collaborative activities, we
+          explored the important topic of gender stigma and social standards.
+        </p>
+
+        <div className="feature-card-layout">
+          <video
+            src="./video/group-talking.mp4"
+            muted
+            autoPlay
+            loop
+            playsInline
+          ></video>
+          <p>
+            During these days, we had the chance to meet people from different
+            countries, each bringing unique perspectives and life stories. This
+            exchange helped us break down cultural barriers and encouraged us to
+            think with a broader, more European mindset.
+          </p>
+        </div>
+
+        <p className="about-center-text">
+          But it wasn’t just about discussion, it was also about connection.
+        </p>
+
+        <div className="feature-card-layout">
+          <p>
+            Throughout the week, we formed meaningful friendships, shared
+            unforgettable experiences, and worked together to create this
+            podcast. It gave us a space to speak openly, challenge stereotypes,
+            and explore important topics that shape our lives.
+          </p>
+          <video
+            className="video-filter"
+            src="./video/group-people-singing.mov"
+            muted
+            autoPlay
+            loop
+            playsInline
+          ></video>
+        </div>
+
+        <p className="about-center-text">
+          We hope that by listening to our podcast, others will feel inspired to
+          take part in Erasmus+ projects themselves. It’s an opportunity to
+          grow, connect with people from all over Europe, and make a real impact
+          both personally and as an active citizen.
+        </p>
+      </div>
+    </>
+  );
+};
