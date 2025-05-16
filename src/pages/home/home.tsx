@@ -3,6 +3,7 @@ import { Tabs } from "../../components/home/tabs/tabs";
 import "./_home.scss";
 
 export const Home = () => {
+  document.title = "Erasmus Podcast";
   const URL = encodeURIComponent(window.location.href);
 
   return (

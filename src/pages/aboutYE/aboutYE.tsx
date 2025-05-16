@@ -1,8 +1,8 @@
 import "./_aboutYE.scss";
 
-document.title = "test";
-
 export const AboutYE = () => {
+  document.title = "Erasmus Podcast | About Youth Exchange";
+
   return (
     <>
       <div className="about-main-container main-container">
