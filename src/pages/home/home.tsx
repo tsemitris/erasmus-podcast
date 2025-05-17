@@ -40,7 +40,7 @@ export const Home = () => {
               preload="none"
             >
               <source
-                src="./audio/podcast/Ep1/gender-stigma-and-social-standards.wav"
+                src="/audio/podcast/Ep1/gender-stigma-and-social-standards.wav"
                 type="audio/wav"
               />
               Your browser does not support the audio element.
