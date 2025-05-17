@@ -1,4 +1,31 @@
-.main-header {
+.home-header {
   background-color: var(--primary-background-color);
   height: 80px;
+  padding: 0.5rem 1rem;
+
+  .header-inner-container {
+    height: 100%;
+    color: white;
+
+    .header-logotype {
+      height: 100%;
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      cursor: pointer;
+
+      .website-logotype {
+        width: auto;
+        height: 70%;
+        object-fit: cover;
+      }
+
+      p {
+        text-transform: uppercase;
+        // font-size: 23px;
+        font-weight: 300;
+      }
+    }
+  }
 }
