@@ -5,7 +5,7 @@ export const AboutYE = () => {
 
   return (
     <>
-      <div className="about-main-container max-width">
+      <div className="about-main-container max-width fadeInToUp">
         <div className="about-hero">
           <div className="about-ye-container">
             <h3>About the YE</h3>
@@ -25,13 +25,14 @@ export const AboutYE = () => {
 
         <div className="feature-card-layout">
           <video
+            className="appearFromLeft"
             src="./video/group-talking.mp4"
             muted
             autoPlay
             loop
             playsInline
           ></video>
-          <p>
+          <p className="appearFromRight">
             During these days, we had the chance to meet people from different
             countries, each bringing unique perspectives and life stories. This
             exchange helped us break down cultural barriers and encouraged us to
@@ -39,19 +40,19 @@ export const AboutYE = () => {
           </p>
         </div>
 
-        <p className="about-center-text">
+        <p className="about-center-text appearFromBottom">
           But it wasn’t just about discussion, it was also about connection.
         </p>
 
         <div className="feature-card-layout">
-          <p>
+          <p className="appearFromLeft">
             Throughout the week, we formed meaningful friendships, shared
             unforgettable experiences, and worked together to create this
             podcast. It gave us a space to speak openly, challenge stereotypes,
             and explore important topics that shape our lives.
           </p>
           <video
-            className="video-filter"
+            className="video-filter appearFromRight"
             src="./video/group-people-singing.mp4"
             muted
             autoPlay
