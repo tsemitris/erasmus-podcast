@@ -10,7 +10,7 @@ export const Home = () => {
     <>
       <img
         className="home-hero"
-        src="./home/banners/test.JPG"
+        src="./home/banners/podcast-studio.webp"
         alt="Close-up of a person in a gray sweater writing notes on a sheet of paper with a pen, beside a black microphone on a stand, conveying focus and preparation."
         width={384}
         height={288}
