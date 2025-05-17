@@ -5,7 +5,7 @@ export const AboutYE = () => {
 
   return (
     <>
-      <div className="about-main-container main-container">
+      <div className="about-main-container max-width">
         <div className="about-hero">
           <div className="about-ye-container">
             <h3>About the YE</h3>
