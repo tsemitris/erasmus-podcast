@@ -52,7 +52,7 @@ export const AboutYE = () => {
           </p>
           <video
             className="video-filter"
-            src="./video/group-people-singing.mov"
+            src="./video/group-people-singing.mp4"
             muted
             autoPlay
             loop
