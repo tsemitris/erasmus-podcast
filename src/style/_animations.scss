@@ -1,4 +1,4 @@
-.appearFromLeft {
+.appear-from-left {
   animation: appearFromLeft linear;
   animation-timeline: view();
   animation-range: entry 0 cover 35%;
@@ -15,7 +15,7 @@
   }
 }
 
-.appearFromRight {
+.appear-from-right {
   animation: appearFromRight linear;
   animation-timeline: view();
   animation-range: entry 0 cover 35%;
@@ -32,11 +32,11 @@
   }
 }
 
-.fadeInToUp {
-  animation: fadeInToUp ease-in-out 1s;
+.fade-in-from-bottom {
+  animation: fadeInFromBottom ease-in-out 1s;
 }
 
-@keyframes fadeInToUp {
+@keyframes fadeInFromBottom {
   from {
     opacity: 0;
     transform: translateY(10%);

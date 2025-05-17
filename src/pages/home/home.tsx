@@ -17,7 +17,7 @@ export const Home = () => {
         loading="lazy"
       />
 
-      <div className="home-main-container max-width">
+      <div className="home-main-container max-width fade-in-from-bottom">
         <div className="home-main-inner-container">
           <div className="home-title-container">
             <img
